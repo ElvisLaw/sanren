@@ -1,0 +1,89 @@
+.lunbo {
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+.info,
+.film {
+	margin-bottom: 20px;
+}
+
+.info {
+	padding-top: 20px;
+}
+
+.film span {
+	color: goldenrod;
+}
+
+
+.film div img,
+.game div img {
+	box-shadow: 5px 5px 10px darkgray;
+	border-radius: 8px;
+	transition: all 1s; 
+}
+
+.film div img:hover,
+.game div img:hover{
+	-webkit-transform: translateY(-6px);
+	-moz-transform: translateY(-6px);
+	-ms-transform: translateY(-6px);
+	-o-transform: translateY(-6px);
+	transform: translateY(-6px);
+	cursor: pointer;
+}
+
+.word:hover {
+	cursor: pointer;
+}
+.game1,.game2 {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.jtg {
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+	color: white;
+	width: 350px;	
+}
+.ori{
+	position: absolute;
+	width: 350px;
+	color: white;
+	left: 30px;
+	top: 20px;
+	font-size: 1em;
+	
+}
+
+.game img {
+	width: 100%;
+}
+
+.bt {
+	height: 40px;
+	width: 40px;
+	border-radius: 10px;
+	position: fixed;
+	right: 20px;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	bottom: 20px;
+	font-size: 20px;
+	background-color: rgba(0, 0, 0, .6);
+	display: none;
+}
+
+audio {
+	width: 100px;
+	height: 100px;
+}
+
+iframe {
+	margin-top: -10px;
+	width: 100%;
+}
